@@ -7,7 +7,7 @@ Documentation     A resource file with reusable keywords and variables.
 Library           Selenium2Library
 
 *** Variables ***
-${SERVER}         ci.thinkbluedata.com/dist
+${SERVER}         localhost/dist
 ${BROWSER}        Firefox
 ${DELAY}          0
 ${UNESCAP URL}    http://${SERVER}/
