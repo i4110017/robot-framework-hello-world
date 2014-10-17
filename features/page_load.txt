@@ -1,0 +1,18 @@
+*** Settings ***
+Documentation     A test suite with a single Gherkin style test.
+...
+...               This test is functionally identical to the example in
+...               valid_login.txt file.
+Resource          ../step_definitions/resource.txt
+Test Teardown     Close Browser
+
+*** Test Cases ***
+Valid Login
+    Given browser is opened to landing page
+    Then UNESCAP page should be open
+
+*** Keywords ***
+Browser is opened to landing page
+    Open browser to landing page
+
+
