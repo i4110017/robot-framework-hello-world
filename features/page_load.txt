@@ -10,6 +10,8 @@ Test Teardown     Close Browser
 Valid Login
     Given browser is opened to landing page
     Then UNESCAP page should be open
+    When I click line chart tab
+    Then I should see line chart
 
 *** Keywords ***
 Browser is opened to landing page
